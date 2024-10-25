@@ -4,10 +4,10 @@ A machine learning model that predicts Price Per Zoning Floor Area (PPZFA) for d
 
 ## About the Author
 **Panithi Tawethipong**
-- Senior Real Estate Development Associate
-- Focus on NYC Development Market Analysis
+- Senior Real Estate Development Advisor
+- Focus on NYC Development Analysis
 - Expertise in:
-  - Development Site Valuation/Acquisition
+  - Development Site Valuation/Land Assemblage & Acquisition
   - Zoning Analysis, Due Diligence and Risk Assessment
   - Real Estate Data Analytic
   - Machine Learning Applications in Real Estate
@@ -36,24 +36,24 @@ A machine learning model that predicts Price Per Zoning Floor Area (PPZFA) for d
 - Zoning impact studies
 - Development potential mapping
 
-[Rest of your current README content...]
-
 ## Featured Projects & Publications
 - NYC Development Land ML (Current Project)
-- [Other relevant projects/research]
-- [Any publications or presentations]
+- Development Site Advisors® Whitepapers
+- The Impact of Aging Demographics on Residential Real Estate Demand and Supply Thesis
+- Therapeutic Landscape for Senior Care Facility Thesis
 
 ## Professional Network
 For industry professionals interested in collaboration or discussing NYC development opportunities:
 - Email: ptawethi@pratt.edu
-- LinkedIn: [Your LinkedIn URL]
-- Academic Affiliation: Pratt Institute
+- LinkedIn: linkedin.com/in/panithi-t
+- Academic Affiliation: Pratt Institute, Chulalongkorn University
 
 ## Speaking & Consulting
 Available for:
-- Development site analysis
+- Development site identification, land assemblage, and acquisition analysis
 - Zoning feasibility studies
 - Market research
-- Technical consulting on development valuation
+- Technical consulting on development
+
 
 ---
