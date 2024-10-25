@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 
 class OptimizedRealEstatePredictor:
-    def __init__(self, data_path="TRANSACTIONS-PT.csv"):
+    def __init__(self, data_path="data/TRANSACTIONS-PT.csv"):
         self.data_path = data_path
         self.pipeline = None
         self.numeric_features = ['LOT AREA', 'LOT FRONTAGE', 'BASE FAR']
