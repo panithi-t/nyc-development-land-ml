@@ -4,7 +4,8 @@ A machine learning model that predicts Price Per Zoning Floor Area (PPZFA) for d
 
 ## What This Model Actually Does
 
-1. **Core Function**: Predicts PPZFA based on:
+### Core Function
+Predicts PPZFA based on:
 ```python
 Required Inputs:
 - BOROUGH (e.g., 'MANHATTAN')
@@ -23,7 +24,7 @@ Optional Inputs:
 - MIH/VIH
 ```
 
-2. **Outputs**:
+### Outputs
 ```python
 Results = {
     'ppzfa': Predicted price per buildable SF
@@ -33,28 +34,20 @@ Results = {
 }
 ```
 
-## Key Features
+## Quick Start
 
-### Data Validation
-- Checks if inputs are within historical ranges
-- Flags unusual or outlier values
-- Provides confidence scoring based on input validity
+1. **Installation**
+```bash
+git clone https://github.com/yourusername/nyc-development-land-ml.git
+cd nyc-development-land-ml
+pip install -r requirements.txt
+```
 
-### Value Calculation
-- Predicts PPZFA based on trained data
-- Calculates total site value using:
-  - Predicted PPZFA
-  - Lot area
-  - Base FAR
+2. **Data Setup**
+- Place TRANSACTIONS-PT.csv in the `data/` directory
+- Note: Data file not included in repository for privacy
 
-### Machine Learning
-- Random Forest algorithm
-- Feature importance analysis
-- Cross-validation
-- Outlier detection
-
-## Usage Example
-
+3. **Usage Example**
 ```python
 site_data = {
     'BOROUGH': 'MANHATTAN',
@@ -77,6 +70,26 @@ print(f"Total Value: ${prediction['total_value']:,.2f}")
 print(f"Confidence Level: {prediction['confidence_level']}")
 ```
 
+## Key Features
+
+### Data Validation
+- Checks if inputs are within historical ranges
+- Flags unusual or outlier values
+- Provides confidence scoring based on input validity
+
+### Value Calculation
+- Predicts PPZFA based on trained data
+- Calculates total site value using:
+  - Predicted PPZFA
+  - Lot area
+  - Base FAR
+
+### Machine Learning
+- Random Forest algorithm
+- Feature importance analysis
+- Cross-validation
+- Outlier detection
+
 ## Important Notes
 
 ### Model Limitations
@@ -96,24 +109,25 @@ This tool should be used as one of many inputs in a comprehensive site analysis,
 - Due diligence
 - Legal review
 
-## Installation
-
-```bash
-git clone https://github.com/yourusername/nyc-development-land-ml.git
-cd nyc-development-land-ml
-pip install -r requirements.txt
-```
-
-## Requirements
+## Technical Requirements
 - Python 3.8+
 - pandas
 - numpy
 - scikit-learn
 
-## License & Usage Restrictions
-
+## Repository Structure
 ```
-© 2024 [Panithi Tawethipong]
+nyc-development-land-ml/
+├── data/                   # Place TRANSACTIONS-PT.csv here
+├── notebooks/             # Analysis examples
+├── src/                   # Core model code
+├── tests/                # Test suite
+└── docs/                 # Documentation
+```
+
+## License & Usage Restrictions
+```
+© 2024 Panithi Tawethipong
 All Rights Reserved.
 
 This model provides estimated values based on historical data.
@@ -121,8 +135,7 @@ Results should be verified through professional due diligence.
 ```
 
 For inquiries:
-[ptawethi@pratt.edu]
+ptawethi@pratt.edu
 
 ---
-
 *Note: This model provides data-driven PPZFA predictions based on basic site characteristics. Results should be used as one of many tools in professional development analysis.*
