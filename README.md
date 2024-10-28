@@ -20,7 +20,7 @@ A machine learning model that predicts Price Per Zoning Floor Area (PPZFA) for d
 
 ### Development Analysis
 - Rapid initial site valuation
-- Land residual analysis
+- Land residual value analysis
 - Development potential assessment
 - Zoning maximization studies
 
